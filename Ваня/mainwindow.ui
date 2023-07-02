@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1199</width>
+    <height>603</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="Sky">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1200</width>
+      <height>196</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../Ris/ivan/sky.gif</pixmap>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Start</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="knight">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>280</y>
+      <width>600</width>
+      <height>279</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../Ris/ivan/idle.gif</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="background">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>3600</width>
+      <height>600</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../Ris/ivan/zadnik.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="box">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>450</y>
+      <width>141</width>
+      <height>114</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../Ris/ivan/box.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="batman">
+    <property name="geometry">
+     <rect>
+      <x>1400</x>
+      <y>50</y>
+      <width>235</width>
+      <height>240</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../Ris/ivan/batman.gif</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="monster">
+    <property name="geometry">
+     <rect>
+      <x>4000</x>
+      <y>300</y>
+      <width>200</width>
+      <height>256</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../Ris/ivan/monster1.gif</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="hay2">
+    <property name="geometry">
+     <rect>
+      <x>4200</x>
+      <y>400</y>
+      <width>825</width>
+      <height>196</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../Ris/ivan/hay2.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="driver">
+    <property name="geometry">
+     <rect>
+      <x>3000</x>
+      <y>350</y>
+      <width>250</width>
+      <height>250</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../Ris/ivan/driver.gif</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="meteor">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>-510</y>
+      <width>564</width>
+      <height>564</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../Ris/ivan/meteor.png</pixmap>
+    </property>
+   </widget>
+   <zorder>Sky</zorder>
+   <zorder>background</zorder>
+   <zorder>pushButton</zorder>
+   <zorder>box</zorder>
+   <zorder>batman</zorder>
+   <zorder>monster</zorder>
+   <zorder>knight</zorder>
+   <zorder>hay2</zorder>
+   <zorder>driver</zorder>
+   <zorder>meteor</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1199</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
