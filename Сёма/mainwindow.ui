@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>704</width>
+    <height>509</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="bear">
+    <property name="geometry">
+     <rect>
+      <x>-190</x>
+      <y>210</y>
+      <width>341</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../Ris/seman/bear1.gif</pixmap>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>start</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="bee">
+    <property name="geometry">
+     <rect>
+      <x>-100</x>
+      <y>30</y>
+      <width>71</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../Ris/seman/bee1.gif</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="forest">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>10</y>
+      <width>1461</width>
+      <height>471</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../Ris/seman/back.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="plant">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>20</y>
+      <width>1461</width>
+      <height>471</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../Ris/seman/plants.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="hive">
+    <property name="geometry">
+     <rect>
+      <x>1250</x>
+      <y>50</y>
+      <width>171</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../Ris/seman/da3.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rabbit">
+    <property name="geometry">
+     <rect>
+      <x>-400</x>
+      <y>324</y>
+      <width>171</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../Ris/seman/rabbit.gif</pixmap>
+    </property>
+   </widget>
+   <zorder>forest</zorder>
+   <zorder>pushButton</zorder>
+   <zorder>bee</zorder>
+   <zorder>bear</zorder>
+   <zorder>hive</zorder>
+   <zorder>rabbit</zorder>
+   <zorder>plant</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>704</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
